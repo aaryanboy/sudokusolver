@@ -31,7 +31,7 @@ def checkvalid(problem, row, col, number):
     return True
 
 
-
+#does this code works
 def find_empty_location(grid):
     for i in range(9):
         for j in range(9):
@@ -47,7 +47,7 @@ def lopp(grid):
     # If there is no empty location, the puzzle is solved
     if row is None:
         return True
-
+# i domt think so need to fix it 
     # Try placing numbers from 1 to 9
     for num in range(1, 10):
         if checkvalid(grid, row, col, num):
@@ -63,7 +63,7 @@ def lopp(grid):
 
     # No solution found for the current configuration
     return False
-
+need to remember pytho. agani dyam its tuff
 
 lopp(grid)
 
